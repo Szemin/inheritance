@@ -1,9 +1,17 @@
 ﻿
+using Dziedziczenie;
+
 class Program
 {
     static void Main()
     {
 
-        Console.ReadKey();
+        ExcelFile excelFile = new ExcelFile();
+
+        excelFile.CreatedOn= DateTime.Now;
+        excelFile.FileName = "excel-file";
+
+        excelFile.GenerateReport();
+        
     }
 }
