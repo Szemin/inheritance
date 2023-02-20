@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dziedziczenie
 {
-     class WordDocumentFile : File 
+    internal class File
     {
-
-        public void Print()
-        {
-            Console.WriteLine($"{FileName} printing... ");
-        }
     }
 }
