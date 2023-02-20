@@ -8,7 +8,6 @@ namespace Dziedziczenie
 {
      class ExcelFile : File
     {
-        
         public void GenerateReport()
         {
             Console.WriteLine($"{FileName} report... ");
