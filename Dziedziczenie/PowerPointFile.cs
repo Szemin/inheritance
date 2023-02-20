@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Dziedziczenie
 {
-    internal class PowerPointFile
+     class PowerPointFile : File
     {
+        public void Present()
+        {
+            Console.WriteLine($"{FileName} presenting... ");
+        }
     }
 }

@@ -8,5 +8,8 @@ namespace Dziedziczenie
 {
     internal class File
     {
+        public string FileName { get; set; }
+        public double Size { get; set; }
+        public DateTime CreatedOn { get; set; }
     }
 }
