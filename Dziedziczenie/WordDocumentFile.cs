@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace Dziedziczenie
 {
-     class ExcelFile
+     class WordDocumentFile
     {
         public string FileName { get; set; }
         public int Size { get; set; }
         public DateTime CreatedOn { get; set; }
 
-        public void GenerateReport()
+        public void Print()
         {
-            Console.WriteLine($"{FileName} report... ");
+            Console.WriteLine($"{FileName} printing... ");
         }
-
     }
 }
