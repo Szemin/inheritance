@@ -11,5 +11,7 @@ namespace Dziedziczenie
         public string FileName { get; set; }
         public double Size { get; set; }
         public DateTime CreatedOn { get; set; }
+        protected string ProtectedProp { get; set; }
+        private string PrivateProp { get; set; }
     }
 }
