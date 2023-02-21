@@ -8,6 +8,10 @@ namespace Dziedziczenie
 {
      class WordDocumentFile : File 
     {
+        public override void Compress()
+        {
+            Console.WriteLine("Compressing..");
+        }
         public void Print()
         {
             Console.WriteLine($"{FileName} printing... ");

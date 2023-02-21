@@ -8,6 +8,10 @@ namespace Dziedziczenie
 {
      class PowerPointFile : File
     {
+        public override void Compress()
+        {
+            Console.WriteLine("Compressing..");
+        }
         public void Present()
         {
             Console.WriteLine($"{FileName} presenting... ");

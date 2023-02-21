@@ -8,8 +8,13 @@ namespace Dziedziczenie
 {
      class ExcelFile : File
     {
+        public override void Compress()
+        {
+            Console.WriteLine("Compressing..");
+        }
         public void GenerateReport()
         {
+            string prop = ProtectedProp;
             Console.WriteLine($"{FileName} report... ");
         }
 
